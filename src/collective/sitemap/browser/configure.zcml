@@ -1,0 +1,29 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser">
+
+  <browser:page
+      name="sitemap.xml.gz"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      layer="collective.sitemap.interfaces.IBrowserLayer"
+      class=".sitemap.SiteMapIndexView"
+      permission="zope2.Public"
+     />
+
+  <browser:page
+      name="sitemap.xml.gz"
+      for="Products.CMFCore.interfaces._content.IFolderish"
+      layer="collective.sitemap.interfaces.IBrowserLayer"
+      class=".sitemap.SiteMapView"
+      permission="zope2.Public"
+     />
+
+  <browser:page
+      name="sitemap-root.xml.gz"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      layer="collective.sitemap.interfaces.IBrowserLayer"
+      class=".sitemap.SiteMapRootView"
+      permission="zope2.Public"
+     />
+
+</configure>
