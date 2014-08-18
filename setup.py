@@ -3,7 +3,7 @@ from setuptools import find_packages
 from setuptools import setup
 
 version = '0.1'
-description = 'FIXME'
+description = 'Enhanced sitemaps.org protocol implementation for Plone.'
 long_description = (
     open('README.rst').read() + '\n' +
     open('CONTRIBUTORS.rst').read() + '\n' +
@@ -27,7 +27,7 @@ setup(
         'Programming Language :: Python :: 2.7',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
-    keywords='',
+    keywords='plone sitemaps sitemap',
     author='Simples Consultoria',
     author_email='produtos@simplesconsultoria.com.br',
     url='https://github.com/simplesconsultoria/collective.sitemap',
