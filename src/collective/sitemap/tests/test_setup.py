@@ -3,7 +3,7 @@ from collective.sitemap.config import PROJECTNAME
 from collective.sitemap.interfaces import IBrowserLayer
 from collective.sitemap.testing import INTEGRATION_TESTING
 from plone.browserlayer.utils import registered_layers
-#from Products.GenericSetup.upgrade import listUpgradeSteps
+# from Products.GenericSetup.upgrade import listUpgradeSteps
 
 import unittest
 
@@ -45,11 +45,11 @@ class TestInstall(BaseTestCase):
         )
 
 
-#class TestUpgrade(BaseTestCase):
+# class TestUpgrade(BaseTestCase):
 #    """Ensure product upgrades work."""
-#
+
 #    def test_to1010_available(self):
-#
+
 #        upgradeSteps = listUpgradeSteps(self.st,
 #                                        self.profile,
 #                                        '1000')

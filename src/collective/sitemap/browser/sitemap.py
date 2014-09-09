@@ -90,8 +90,8 @@ class SiteMapRootView(BaseView):
         yield {
             'loc': loc,
             'lastmod': lastmod,
-            #'changefreq': 'always', # hourly/daily/weekly/monthly/yearly/never
-            #'prioriy': 0.5, # 0.0 to 1.0
+            # 'changefreq': 'always', # hourly/daily/weekly/monthly/yearly/never
+            # 'prioriy': 0.5, # 0.0 to 1.0
         }
 
         query['is_default_page'] = False
@@ -109,6 +109,6 @@ class SiteMapRootView(BaseView):
             yield {
                 'loc': loc,
                 'lastmod': lastmod,
-                #'changefreq': 'always', # hourly/daily/weekly/monthly/yearly/never
-                #'prioriy': 0.5, # 0.0 to 1.0
+                # 'changefreq': 'always', # hourly/daily/weekly/monthly/yearly/never
+                # 'prioriy': 0.5, # 0.0 to 1.0
             }
