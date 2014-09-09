@@ -39,7 +39,7 @@ setup(
     install_requires=[
         'plone.api',
         'plone.app.upgrade',
-        'Products.CMFPlone >=4.3',
+        'Products.CMFPlone >=4.2',
         'Products.GenericSetup',
         'setuptools',
         'zope.i18nmessageid',
