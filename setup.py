@@ -30,7 +30,7 @@ setup(
     keywords='plone sitemaps sitemap',
     author='Simples Consultoria',
     author_email='produtos@simplesconsultoria.com.br',
-    url='https://github.com/simplesconsultoria/collective.sitemap',
+    url='https://github.com/collective/collective.sitemap',
     packages=find_packages('src'),
     package_dir={'': 'src'},
     namespace_packages=['collective', ],

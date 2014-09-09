@@ -19,21 +19,21 @@ This package addresses that by replacing the default /sitemap.xml.gz in site roo
 Mostly Harmless
 ---------------
 
-.. image:: https://secure.travis-ci.org/simplesconsultoria/collective.sitemap.png?branch=master
+.. image:: https://secure.travis-ci.org/collective/collective.sitemap.png?branch=master
     :alt: Travis CI badge
-    :target: http://travis-ci.org/simplesconsultoria/collective.sitemapr
+    :target: http://travis-ci.org/collective/collective.sitemap
 
-.. image:: https://coveralls.io/repos/simplesconsultoria/collective.sitemap/badge.png?branch=master
+.. image:: https://coveralls.io/repos/collective/collective.sitemap/badge.png?branch=master
     :alt: Coveralls badge
-    :target: https://coveralls.io/r/simplesconsultoria/collective.sitemap
+    :target: https://coveralls.io/r/collective/collective.sitemap
 
 .. image:: https://pypip.in/d/collective.sitemap/badge.png
-    :target: https://pypi.python.org/pypi/collective.sitemap/
     :alt: Downloads
+    :target: https://pypi.python.org/pypi/collective.sitemap
 
 Got an idea? Found a bug? Let us know by `opening a support ticket`_.
 
-.. _`opening a support ticket`: https://github.com/simplesconsultoria/collective.sitemap/issues
+.. _`opening a support ticket`: https://github.com/collective/collective.sitemap/issues
 
 
 Installation
