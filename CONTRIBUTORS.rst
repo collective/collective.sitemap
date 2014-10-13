@@ -1,4 +1,4 @@
 Contributors
-============
+------------
 
- - Érico Andrei
+- Érico Andrei
